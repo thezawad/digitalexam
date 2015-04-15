@@ -1,0 +1,32 @@
+P.question {
+	font-family:Arial;
+	font-size:18;
+	font-weight:bold;
+	color:#666666;
+}
+
+.answer {
+	font-family:Courrier;
+	font-size:16;
+	color:#990000;
+}
+
+P.question:first-letter{
+font-size:20;
+color:#FF0000;
+}
+
+P.comments{
+font-size:14px;
+color:#FF6633;
+border-width:thick;
+border-color:#999999;
+background-color:#FFFFCC;
+}
+
+H1{
+font-size:22;
+color:#000099;
+text-decoration:underline;
+text-align:center;
+}
