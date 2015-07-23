@@ -9,20 +9,19 @@ require("connect.php");
 
 if ($_POST['go']) {
 $roll=$_POST['roll'];
-/
+
 $self=$_SERVER['PHP_SELF'];
 
 
 
 
-
+ 
 $sql="SELECT * FROM `student` WHERE `roll`='$roll'";
-
 $za=mysql_query($sql);
 if (!$za) {
 die(mysql_error());
 }
-/
+
 echo "<center><table border=\"0\"><tr style=\"font-size: 20px;
 color: #000;\">
 <td width=\"100\" ><b>ROLL</b></td>
